@@ -94,11 +94,10 @@ nav {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 13px 5px;
+    padding: 13px 5%;
 }
 
 .left-sidebar {
-    background: #cbdffa;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
@@ -110,14 +109,17 @@ nav {
 }
 
 .right-sidebar {
-    background: #cbdffa;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
 }
 
-.imp-links a {
+.imp-links a, .shortcut-links a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -131,3 +133,40 @@ nav {
     margin-right: 15px;
 }
 
+.imp-links a:last-child {
+    color: #1876f2;
+}
+
+.imp-links {
+    border-bottom: 1px solid #ccc;
+}
+
+.shortcut-links img {
+    width: 40px;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+.shortcut-links p {
+    margin: 25px 0;
+    color: #626262;
+    font-weight: 500;
+}
+
+.sidebar-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sidebar-title h4 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sidebar-title a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+}
