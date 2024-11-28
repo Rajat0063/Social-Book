@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d8c297bb45.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <!-- Left Side of the Navigation Bar -->
+        <div class="nav-left">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <ul>
+                <li><img src="images/notification.png" alt="notification_logo"></li>
+                <li><img src="images/inbox.png" alt="inbox_logo"></li>
+                <li><img src="images/video.png" alt="video_logo"></li>
+            </ul>
+        </div>
+
+        <!-- Right Side of the Navigation Bar -->
+        <div class="nav-right">
+
+            <!-- Search Box -->
+            <div class="search-box">
+                <img src="images/search.png" alt="search_logo">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <!-- User Icon with Online Status -->
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="profile_picture">
+            </div>
+
+        </div>
+
+        <!-- -------------- Settings Menu -------------- -->
+        <div class="settings-menu">
+
+            <!-- -------------Toggle Button-------------- -->
+             <div id="dark-btn">
+                <span></span>
+             </div>
+
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile_picture">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+    
+                <!-- Another -->
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="profile_picture">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- --------------- Settings Links ---------------- -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/setting.png" alt="setting_image">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+                <!-- Another One -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/help.png" alt="setting_image">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+                <!-- Another One -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/display.png" alt="setting_image">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+                <!-- Another One -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/logout.png" alt="setting_image">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- ----------- Profile Page ------------- -->
+
+    <div class="profile-container">
+        <img class="cover-img" src="images/cover.png" alt="cover_image">
+        <div class="profile-details">
+
+            <!-- Left Profile Detail -->
+            <div class="left-pd">
+                <div class="pd-row">
+                    <img class="pd-image" src="images/profile.png" alt="profile_image">
+                    <div>
+                        <h3>Jack Nichlson</h3>
+                        <p>120 Friends - 20 mutual</p>
+                        <img src="images/member-1.png">
+                        <img src="images/member-2.png">
+                        <img src="images/member-3.png">
+                        <img src="images/member-4.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Profile Detail -->
+            <div class="right-pd">
+
+                <button type="button"><img src="images/add-friends.png"> Friends</button>
+                <button type="button"><img src="images/message.png"> Message</button>
+                <br>
+                <a href="#"><img src="images/more.png"></a>
+            </div>
+        </div>
+
+
+        <div class="profile-info">
+            <div class="info-col">
+
+            </div>
+            <div class="post-col">
+                
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <div class="footer">
+        <p>Copyright 2024 - by Rajat Yadav Website</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
