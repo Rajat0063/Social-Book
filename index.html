@@ -32,11 +32,67 @@
             </div>
 
             <!-- User Icon with Online Status -->
-            <div class="nav-user-icon online">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                 <img src="images/profile-pic.png" alt="profile_picture">
             </div>
 
         </div>
+
+        <!-- -------------- Settings Menu -------------- -->
+        <div class="settings-menu">
+
+            <div class="settings-menu-inner">
+
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile_picture">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+    
+                <!-- Another -->
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="profile_picture">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <hr>
+
+
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/setting.png" alt="setting_image">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+                <!-- Another One -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/help.png" alt="setting_image">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+                <!-- Another One -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/display.png" alt="setting_image">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+                <!-- Another One -->
+                <div class="settings-links">
+                    <img class="settings-icon" src="images/logout.png" alt="setting_image">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px" alt="arrow_icon"></a>
+                </div>
+
+
+            </div>
+
+        </div>
+
     </nav>
 
     <!-- Body Content Started From Here -->
@@ -382,6 +438,8 @@
         <p>Copyright 2024 - by Rajat Yadav Website</p>
     </div>
 
+
+    <script src="script.js"></script>
 
 </body>
 
